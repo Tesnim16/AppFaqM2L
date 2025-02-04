@@ -9,7 +9,7 @@
 * Antoine HARO
 * Selim NOUIRA
 * Tesnim BENAMA.
-#LOT 1
+# LOT 1
 # 5. Descriptif du dépôt : 
 * Looping (MCD/MLD/BDD)
 * AppFAQ.drawio (DCU)
