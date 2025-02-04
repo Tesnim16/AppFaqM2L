@@ -9,28 +9,19 @@
 * Antoine HARO
 * Selim NOUIRA
 * Tesnim BENAMA.
+#LOT 1
 # 5. Descriptif du dépôt : 
 * Looping (MCD/MLD/BDD)
 * AppFAQ.drawio (DCU)
 * SCRIPT SQL (le code pour la base de données)
 * FAQ BALSAMIQ.pdf (l'IHM/mockup/maquette du site)
 * le README.md (les informations du projet).
-# 6. Procédure d'installation du projet :
-
-Cloner le dépôt depuis GitHub :
-
-git clone <URL_DU_DEPOT>
-
-Importer la base de données sur PHPMyAdmin :
-
-Ouvrir PHPMyAdmin.
-
-Créer une nouvelle base de données en UTF-8 avec le moteur InnoDB.
-
-Importer le fichier structure.sql pour le modèle physique de données (MPD).
-
-Importer le fichier data.sql pour les données initiales.
-
-Configurer le fichier de connexion à la base de données avec vos identifiants.
-
-Lancer le projet en ouvrant le fichier index.html ou en déployant sur un serveur local.
+# LOT 2
+# 6. Descriptif du dépot numéro 2
+* Réalisez le Modèle physique de données (MPD) sur PHPMyAdmin
+* Dépot du dossier "doc" avec le DCU le MLD l'IHM,  l'enchainement des pages (sitemap) et le fichier SQL du MDP
+# 7. Description de la procédure d'installation du projet 
+* première étape récupérer le fichier du projet
+* deuxième étape lancer PHPMyAdmin sur notre poste
+* troisième étape lancer le localolhost/ du projet
+* ouvrir dans VSCode le fichier 
