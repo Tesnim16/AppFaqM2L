@@ -21,7 +21,12 @@
 * Réalisez le Modèle physique de données (MPD) sur PHPMyAdmin
 * Dépot du dossier "doc" avec le DCU le MLD l'IHM,  l'enchainement des pages (sitemap) et le fichier SQL du MDP
 # 7. Description de la procédure d'installation du projet 
-* première étape récupérer le fichier du projet
-* deuxième étape lancer PHPMyAdmin sur notre poste
-* troisième étape lancer le localolhost/ du projet
-* ouvrir dans VSCode le fichier 
+* première  étape : récupérer le répertoire du projet
+* deuxième étape : le copier dans le serveur web
+* troisième  étape : lancer PHPMyAdmin sur notre poste
+* quatrième étape : lancer le localhost/ du projet
+* cinquième étape : ouvrir dans VSCode le fichier 
+# 8. Les utilisateurs et mots de passe fournis
+* Login : Antoine1 /  mail: antoine.haro@limayrac.fr / mdp: AntoineH
+* Login : Enzo2 /  mail: enzo.douat@limayrac.fr / mdp: EnzoD
+* Login : Tesnim3 /  mail: tesnim.benema@limayrac.fr / mdp: TesnimB
