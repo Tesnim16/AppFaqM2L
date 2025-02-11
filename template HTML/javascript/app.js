@@ -69,3 +69,74 @@ function confirmEdit4() {
     }
     closeModal4();
 }
+
+var modale = document.getElementById("myResponse1");
+var modale2 = document.getElementById("myResponse2");
+var modale3 = document.getElementById("myResponse3");
+var modale4 = document.getElementById("myResponse4");
+var responseElement1 = document.getElementById("response1");
+var responseElement2 = document.getElementById("response2");
+var responseElement3 = document.getElementById("response3");
+var responseElement4 = document.getElementById("response4");
+var responseNew = "";
+
+// Afficher la modale pour confirmer la modification
+function response1() {
+    modale.style.display = "block";  // Afficher la modale
+}
+function response2() {
+    modale2.style.display = "block";  // Afficher la modale
+}
+function response3() {
+    modale3.style.display = "block";  // Afficher la modale
+}
+function response4() {
+    modale4.style.display = "block";  // Afficher la modale
+}
+
+// Fermer la modale
+function closeModale() {
+    modale.style.display = "none";  // Masquer la modale
+}
+
+function closeModale2() {
+    modale2.style.display = "none";  // Masquer la modale
+}
+
+function closeModale3() {
+    modale3.style.display = "none";  // Masquer la modale
+}
+
+function closeModale4() {
+    modale4.style.display = "none";  // Masquer la modale
+}
+
+// Valider la modification de la question
+function confirmResponse1() {
+    questionNew = prompt("Modifier la question");
+    if (responseNew) {
+        responseElement1.innerHTML = responseNew;
+    }
+    closeModale();
+}
+function confirmResponse2() {
+    questionNew = prompt("Modifier la question");
+    if (responseNew) {
+        responseElement2.innerHTML = responseNew;
+    }
+    closeModale2();
+}
+function confirmResponse3() {
+    questionNew = prompt("Modifier la question");
+    if (responseNew) {
+        responseElement3.innerHTML = responseNew;
+    }
+    closeModale3();
+}
+function confirmResponse4() {
+    questionNew = prompt("Modifier la question");
+    if (responseNew) {
+        responseElement4.innerHTML = responseNew;
+    }
+    closeModale4();
+}

@@ -35,7 +35,7 @@
                     <td id="response1">...</td>
                     <td>
                         <button onclick="edit1()">Modifier</button>
-                        <button>Répondre</button>
+                        <button onclick="response1()">Répondre</button>
                         <button>Supprimer</button>
                         
                     </td>
@@ -48,7 +48,7 @@
                     <td id="response2">...</td>
                     <td>
                         <button onclick="edit2()">Modifier</button>
-                        <button>Répondre</button>
+                        <button onclick="response2()">Répondre</button>
                         <button>Supprimer</button>
                         
                     </td>
@@ -61,7 +61,7 @@
                     <td id="response3">...</td>
                     <td>
                         <button onclick="edit3()">Modifier</button>
-                        <button>Répondre</button>
+                        <button onclick="response3()">Répondre</button>
                         <button>Supprimer</button>
                         
                     </td>
@@ -74,7 +74,7 @@
                     <td id="response4">...</td>
                     <td>
                         <button onclick="edit4()">Modifier</button>
-                        <button onclick="">Répondre</button>
+                        <button onclick="response4()">Répondre</button>
                         <button>Supprimer</button>
                         
                     </td>
@@ -118,8 +118,42 @@
         </div>
       </div>
 
-    <script src="javascript/app.js">
-        
-    </script>
+      <div id="myResponse1" class="response">
+        <div class="response-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Êtes-vous sûr de vouloir modifier cette reponse ?</p>
+          <button onclick="confirmResponse1()">Oui</button>
+          <button onclick="closeModal1()">Non</button>
+        </div>
+      </div>
+
+      <div id="myResponse2" class="response">
+        <div class="response-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Êtes-vous sûr de vouloir modifier cette reponse ?</p>
+          <button onclick="confirmResponse2()">Oui</button>
+          <button onclick="closeModal2()">Non</button>
+        </div>
+      </div>
+      
+      <div id="myResponse3" class="response">
+        <div class="response-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Êtes-vous sûr de vouloir modifier cette reponse ?</p>
+          <button onclick="confirmResponse3()">Oui</button>
+          <button onclick="closeModal3()">Non</button>
+        </div>
+      </div>
+
+      <div id="myResponse4" class="response">
+        <div class="response-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Êtes-vous sûr de vouloir modifier cette reponse ?</p>
+          <button onclick="confirmResponse4()">Oui</button>
+          <button onclick="closeModal4()">Non</button>
+        </div>
+      </div>
+
+    <script src="javascript/app.js"></script>
 </body>
 </html>
