@@ -3,83 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/edit.css">
     <title>inscription</title>
 </head>
 <body>
 
-    <header>
+    <header id="list-header">
         <div class="header-container">
-            <button onclick="window.location.href='ajouter_question.html'">Ajouter une question</button>
             <input type="text" placeholder="Rechercher une question">
-            <button onclick="window.location.href='login.html'">Déconnexion</button>
         </div>
     </header>
-    <div class="container">
-    <div class="button.list">
-        <h2>Liste des questions</h2>
+
+    <div class="list-container">
+        
+        <h2>Liste des Questions</h2>
 
         <table>
-                <tr>
-                    <th>Ligue</th>
-                    <th>User/Pseudo</th>
-                    <th>Question</th>
-                    <th>Réponse</th>
-                    <th>Modifier/Supprimer</th>
-                </tr>
+            <tr>
+                <th>Ligue</th>
+                <th>User/Pseudo</th>
+                <th>Question</th>
+                <th>Réponse</th>
+                <th>Modifier/Supprimer</th>
+            </tr>
 
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td id="question1">...</td>
-                    <td id="response1">...</td>
-                    <td>
-                        <button onclick="edit1()">Modifier</button>
-                        <button onclick="response1()">Répondre</button>
-                        <button>Supprimer</button>
-                        
-                    </td>
-                </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td id="question1">...</td>
+                <td id="response1">...</td>
+                <td>
+                    <button onclick="edit1()">Modifier</button>
+                    <button onclick="response1()">Répondre</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
 
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td id="question2">...</td>
-                    <td id="response2">...</td>
-                    <td>
-                        <button onclick="edit2()">Modifier</button>
-                        <button onclick="response2()">Répondre</button>
-                        <button>Supprimer</button>
-                        
-                    </td>
-                </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td id="question2">...</td>
+                <td id="response2">...</td>
+                <td>
+                    <button onclick="edit2()">Modifier</button>
+                    <button onclick="response2()">Répondre</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
 
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td id="question3">...</td>
-                    <td id="response3">...</td>
-                    <td>
-                        <button onclick="edit3()">Modifier</button>
-                        <button onclick="response3()">Répondre</button>
-                        <button>Supprimer</button>
-                        
-                    </td>
-                </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td id="question3">...</td>
+                <td id="response3">...</td>
+                <td>
+                    <button onclick="edit3()">Modifier</button>
+                    <button onclick="response3()">Répondre</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
 
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td id="question4">...</td>
-                    <td id="response4">...</td>
-                    <td>
-                        <button onclick="edit4()">Modifier</button>
-                        <button onclick="response4()">Répondre</button>
-                        <button>Supprimer</button>
-                        
-                    </td>
-                </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td id="question4">...</td>
+                <td id="response4">...</td>
+                <td>
+                    <button onclick="edit4()">Modifier</button>
+                    <button onclick="response4()">Répondre</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
         </table>
+        <div class="button-group">
+            <button onclick="window.location.href='ajouter_question.html'" class="add-question-btn">Ajouter une question</button>
+            <button onclick="window.location.href='login.html'" class="logout-btn">Déconnexion</button>
+        </div>
+
     </div>
 
     <div id="myModal" class="modal">
@@ -155,5 +156,7 @@
       </div>
 
     <script src="javascript/app.js"></script>
+
+
 </body>
 </html>
