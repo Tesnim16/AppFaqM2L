@@ -109,6 +109,7 @@ nav a {
 .menu li:hover .submenu {
     display: block;
 }
+
 * {
     margin: 0;
     padding: 0;
