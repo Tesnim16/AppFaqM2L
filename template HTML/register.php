@@ -10,8 +10,12 @@
     <div id="register-container">
         <h2>Inscription</h2>
         <form id="register-form">
-            <label for="identifiant">Identifiant ou adresse e-mail :</label>
-            <input type="text" id="identifiant" name="identifiant" required>
+
+            <label for="identifiant">Pseudo:</label>
+            <input type="texte" id="identifiant" name="identifiant" required>
+
+            <label for="identifiant">Adresse e-mail :</label>
+            <input type="email" id="identifiant" name="identifiant" required>
 
             <label for="motdepasse">Mot de passe :</label>
             <input type="password" id="motdepasse" name="motdepasse" required>
