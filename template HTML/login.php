@@ -20,7 +20,7 @@
     
                 <div id="login-buttons">
                     <input type="submit" value="Se connecter">
-                    <input type="submit" value="S'inscrire" onclick="window.location.href='register.html'">
+                    <input type="submit" value="S'inscrire" onclick="window.location.href='register.php'">
                 </div>
             </form>
         </div>
