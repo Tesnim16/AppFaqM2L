@@ -19,9 +19,18 @@
                         <li><a href="#">Foire aux questions</a></li>
                     </ul>
                 </li>
-                    <a href="templateHTML/register.php">Inscription</a>
-                    <a href="templateHTML/login.php">Connexion</a>
-                <a href="index.php" style="color: red;"><u>Se déconnecter</u></a>
+                
+                <a href="templateHTML/register.php">Inscription</a>
+
+                <a href="templateHTML/login.php">Connexion</a>
+
+                <a href="index.php" style="color: red;"><u>Se déconnecter</u> 
+                    <?php 
+                        session_unset();
+                        session_destroy();
+                        setcookie(session_name(),'',-1,'/');
+                    ?>
+                </a>
             </ul>
         </nav>
     </header>
