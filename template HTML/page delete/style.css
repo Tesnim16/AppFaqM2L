@@ -24,8 +24,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin: 10px 0;
     margin-left: 20px;
     box-sizing: border-box;
-    /* margin-left: 20px; */
-    /* padding-right: 50%; */
 }
 
 /* Pour le bouton de "se connecter" */
