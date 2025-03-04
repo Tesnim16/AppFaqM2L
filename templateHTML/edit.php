@@ -77,8 +77,8 @@
             </tr>
         </table>
         <div class="button-group">
-            <button onclick="window.location.href='ajouter_question.html'" class="add-question-btn">Ajouter une question</button>
-            <button onclick="window.location.href='login.php'" class="logout-btn">Déconnexion</button>
+            <button onclick="window.location.href='add.php'" class="add-question-btn">Ajouter une question</button>
+            <button onclick="window.location.href='index.php'" class="logout-btn">Déconnexion</button>
         </div>
 
     </div>

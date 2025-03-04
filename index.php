@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil FAQ</title>
-    <link rel="stylesheet" href="templatHTML/css/style.css">
+    <link rel="stylesheet" href="templateHTML/css/index.css">
+    <title>AppFaq</title>
 </head>
 <body>
-    <h1>Bienvenue sur la page d'accueil</h1>
-    <br>
-    <a href="templateHTML/login.php">Se connecter</a>
-    <br>
-    <a href="templateHTML/register.php">S'inscrire</a>
-    <br>
-    <a href="index.php">Se déconecter</a>
+    <header>
+        <div class="logo">MonLogo</div>
+        <h1 class="titre">AppFaq</h1>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li>
+                    <a href="#">Services ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Développement</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Nouveau client ? ▼</a>
+                    <ul class="submenu">
+                        <li><a href="templateHTML/register.php">Inscription</a></li>
+                        <li><a href="templateHTML/login.php">Connexion</a></li>
+                    </ul>
+                </li>
+                <a href="index.php">Se déconnecter</a>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
 
-    <h3>Présentation de l'App Faqq</h3>
-    
+
 </body>
 </html>
