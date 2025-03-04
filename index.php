@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="templateHTML/css/index.css">
-    <title>AppFaq</title>
+    <title>Accueil FAQ</title>
 </head>
 <body>
     <header>
@@ -16,22 +16,12 @@
                 <li>
                     <a href="#">Services ▼</a>
                     <ul class="submenu">
-                        <li><a href="#"></a></li>
-                        <li><a href="#">Développement</a></li>
-                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Foire aux questions</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Nouveau client ? ▼</a>
-                    <ul class="submenu">
-                        <li><a href="templateHTML/register.php">Inscription</a></li>
-                        <li><a href="templateHTML/login.php">Connexion</a></li>
-                    </ul>
-                </li>
-                <a href="index.php">Se déconnecter</a>
+                    <a href="templateHTML/register.php">Inscription</a>
+                    <a href="templateHTML/login.php">Connexion</a>
+                <a href="index.php" style="color: red;"><u>Se déconnecter</u></a>
             </ul>
         </nav>
     </header>
