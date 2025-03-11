@@ -25,11 +25,7 @@
                 <a href="templateHTML/login.php">Connexion</a>
 
                 <a href="index.php" style="color: red;"><u>Se déconnecter</u> 
-                    <?php 
-                        session_unset();
-                        session_destroy();
-                        setcookie(session_name(),'',-1,'/');
-                    ?>
+
                 </a>
             </ul>
         </nav>
