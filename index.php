@@ -25,6 +25,7 @@
                 <a href="templateHTML/login.php">Connexion</a>
 
                 <a href="index.php" style="color: red;"><u>Se déconnecter</u> 
+
                 </a>
             </ul>
         </nav>
