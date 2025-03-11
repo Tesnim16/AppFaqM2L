@@ -12,7 +12,7 @@
         <form id="register-form">
 
             <label for="identifiant">Pseudo:</label>
-            <input type="texte" id="identifiant" name="identifiant" required>
+            <input type="text" id="identifiant" name="identifiant" required>
 
             <label for="identifiant">Adresse e-mail :</label>
             <input type="email" id="identifiant" name="identifiant" required>
