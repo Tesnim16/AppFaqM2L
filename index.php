@@ -16,7 +16,7 @@
                 <li>
                     <a href="#">Services ▼</a>
                     <ul class="submenu">
-                        <li><a href="templateHTML/add.css">Foire aux questions</a></li>
+                        <li><a href="templateHTML/add.php">Foire aux questions</a></li>
                     </ul>
                 </li>
                 
