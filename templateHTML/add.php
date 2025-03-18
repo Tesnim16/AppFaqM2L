@@ -9,9 +9,6 @@
 <body>
 
     <header id="list-header">
-        <div class="header-container">
-            <input type="text" placeholder="Rechercher une question">
-        </div>
     </header>
 
     <div id="main-container" style="background-color: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
