@@ -1,3 +1,9 @@
+<?php
+
+include 'accesdb.inc.php';
+$dbh = connexion();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
