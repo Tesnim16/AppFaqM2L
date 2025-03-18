@@ -11,7 +11,7 @@
     <body>
         <div id="login-container">
             <h2>Connexion</h2>
-            <form id="login-form" action="votre_script_de_connexion.php" method="post">
+            <form id="login-form" method="post">
                 <label for="identifiant">Identifiant ou adresse e-mail :</label>
                 <input type="text" id="identifiant" name="identifiant" required>
     
