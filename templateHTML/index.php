@@ -9,7 +9,7 @@ $dbh = connexion();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="templateHTML/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Accueil FAQ</title>
 </head>
 <body>
@@ -22,13 +22,13 @@ $dbh = connexion();
                 <li>
                     <a href="#">Services ▼</a>
                     <ul class="submenu">
-                        <li><a href="templateHTML/list.php">Foire aux questions</a></li>
+                        <li><a href="list.php">Foire aux questions</a></li>
                     </ul>
                 </li>
                 
-                <a href="templateHTML/register.php">Inscription</a>
+                <a href="register.php">Inscription</a>
 
-                <a href="templateHTML/login.php">Connexion</a>
+                <a href="login.php">Connexion</a>
 
                 <a href="index.php" style="color: red;"><u>Se déconnecter</u> 
 

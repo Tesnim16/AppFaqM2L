@@ -55,7 +55,6 @@ $dbh = connexion();
                     <td>...</td>
                     <td>...</td>
                     <td>...</td>
-                    <td>...</td>
                 </tr>
         </table>
          
