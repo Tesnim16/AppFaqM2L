@@ -1,4 +1,6 @@
 <?php
+
+function connexion() {
 $dsn = 'mysql:host=localhost;dbname=appfaq';
 $username = 'root';
 $password = '';
@@ -9,4 +11,6 @@ try {
     } catch (PDOException $ex) {
     die("Erreur lors de la connexion SQL : " . $ex->getMessage());
     }
+
+}
 ?>

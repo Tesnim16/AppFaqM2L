@@ -1,7 +1,7 @@
 <?php
 
 include 'accesdb.inc.php';
-
+$dbh = connexion();
 ?>
 
 <!DOCTYPE html>
