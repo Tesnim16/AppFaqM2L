@@ -26,9 +26,6 @@ $dbh = connexion();
             <label for="motdepasse">Mot de passe :</label>
             <input type="password" id="motdepasse" name="motdepasse" required>
 
-            <label for="confirmer-motdepasse">Confirmer le mot de passe :</label>
-            <input type="password" id="confirmer-motdepasse" name="confirmer-motdepasse" required>
-
             <div class="form-group">
                 <label for="league">Selectionner une ligue</label>
                 
