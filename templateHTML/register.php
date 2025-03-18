@@ -30,11 +30,11 @@ $dbh = connexion();
                 <label for="league">Selectionner une ligue</label>
                 
                 <select id="league" name="league">
-                    <option value="Ligue 1">Football</option>
-                    <option value="Ligue 2">Basketball</option>
-                    <option value="Ligue 3">Volleyball</option>
-                    <option value="Ligue 4">Handball</option>
-                    <option value="Ligue 5">Toute les ligues</option>
+                    <option id="Ligue 1" name="Ligue 1" value="Ligue 1">Football</option>
+                    <option id="Ligue 2" name="Ligue 2" value="Ligue 2">Basketball</option>
+                    <option id="Ligue 3" name="Ligue 3" value="Ligue 3">Volleyball</option>
+                    <option id="Ligue 4" name="Ligue 4" value="Ligue 4">Handball</option>
+                    <option id="Ligue 5" name="Ligue 5" value="Ligue 5">Toute les ligues</option>
                     
                 </select>
             </div>
