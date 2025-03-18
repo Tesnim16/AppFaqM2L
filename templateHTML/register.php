@@ -30,8 +30,8 @@
                     <option value="Ligue 1">Football</option>
                     <option value="Ligue 2">Basketball</option>
                     <option value="Ligue 3">Volleyball</option>
-                    <option value="Ligue 3">Handball</option>
-                    <option value="Ligue 3">Toute les ligues</option>
+                    <option value="Ligue 4">Handball</option>
+                    <option value="Ligue 5">Toute les ligues</option>
                     
                 </select>
             </div>
